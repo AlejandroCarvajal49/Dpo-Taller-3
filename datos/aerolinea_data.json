@@ -1,0 +1,103 @@
+{
+    "aviones": [
+        {
+            "nombre": "Boeing 737",
+            "capacidad": 150
+        },
+        {
+            "nombre": "Airbus A320",
+            "capacidad": 180
+        },
+        {
+            "nombre": "Embraer 190",
+            "capacidad": 100
+        }
+    ],
+    "aeropuertos": [
+        {
+            "nombre": "Bogot\u00e1",
+            "codigo": "BOG"
+        },
+        {
+            "nombre": "Medell\u00edn",
+            "codigo": "MDE"
+        },
+        {
+            "nombre": "Cali",
+            "codigo": "CLO"
+        },
+        {
+            "nombre": "Cartagena",
+            "codigo": "CTG"
+        }
+    ],
+    "rutas": [
+        {
+            "origen": {
+                "nombre": "Bogot\u00e1",
+                "codigo": "BOG"
+            },
+            "destino": {
+                "nombre": "Medell\u00edn",
+                "codigo": "MDE"
+            },
+            "horaSalida": "08:00",
+            "horaLlegada": "09:30",
+            "codigoRuta": "BOG-MDE"
+        },
+        {
+            "origen": {
+                "nombre": "Cali",
+                "codigo": "CLO"
+            },
+            "destino": {
+                "nombre": "Cartagena",
+                "codigo": "CTG"
+            },
+            "horaSalida": "10:00",
+            "horaLlegada": "11:30",
+            "codigoRuta": "CLO-CTG"
+        },
+        {
+            "origen": {
+                "nombre": "Medell\u00edn",
+                "codigo": "MDE"
+            },
+            "destino": {
+                "nombre": "Cali",
+                "codigo": "CLO"
+            },
+            "horaSalida": "12:00",
+            "horaLlegada": "13:30",
+            "codigoRuta": "MDE-CLO"
+        }
+    ],
+    "vuelos": [
+        {
+            "ruta": "BOG-MDE",
+            "fecha": "2024-09-10",
+            "avion": "Boeing 737"
+        },
+        {
+            "ruta": "CLO-CTG",
+            "fecha": "2024-09-11",
+            "avion": "Airbus A320"
+        },
+        {
+            "ruta": "MDE-CLO",
+            "fecha": "2024-09-12",
+            "avion": "Embraer 190"
+        }
+    ],
+    "clientes": [
+        {
+            "nombre": "Cliente 1"
+        },
+        {
+            "nombre": "Cliente 2"
+        },
+        {
+            "nombre": "Cliente 3"
+        }
+    ]
+}
